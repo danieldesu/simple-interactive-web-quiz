@@ -1,0 +1,89 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capital City Quiz</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- top -->
+    <div class="intro">
+      <div class="container">
+        <h2>Capital City Quiz</h2>
+      </div>
+    </div>
+
+    <!-- Result -->
+
+    <div class="result d-none">
+      <div class="container">
+        <p>You are <span class="score-display">0%</span> correct, mate</p>
+      </div>
+    </div>
+
+    <!-- Quiz -->
+
+    <div class="quiz">
+      <div class="container">
+        <p id="start-text">Let's begin...</p>
+
+        <form class="quiz-form">
+          <div>
+            <p>1. What is the capital city of Finland?</p>
+            <div>
+              <input type="radio" name="q1" value="A" checked requird />
+              <label>Tampere</label>
+            </div>
+            <div>
+              <input type="radio" name="q1" value="B" required />
+              <label>Helsinki</label>
+            </div>
+          </div>
+
+          <div>
+            <p>2. What is the capital city of Sweden?</p>
+            <div>
+              <input type="radio" name="q2" value="A" required />
+              <label>Stockholm</label>
+            </div>
+            <div>
+              <input type="radio" name="q2" value="B" required />
+              <label>Stovdom</label>
+            </div>
+          </div>
+
+          <div>
+            <p>3. What is the capital city of Nigeria?</p>
+            <div>
+              <input type="radio" name="q3" value="A" required />
+              <label>Abuja</label>
+            </div>
+            <div>
+              <input type="radio" name="q3" value="B" required />
+              <label>Lagos</label>
+            </div>
+          </div>
+
+          <div>
+            <p>4. What is the capital city of Japan?</p>
+            <div>
+              <input type="radio" name="q4" value="A" required />
+              <label>Osaka</label>
+            </div>
+            <div>
+              <input type="radio" name="q4" value="B" required />
+              <label>Tokyo</label>
+            </div>
+          </div>
+
+          <div>
+            <input type="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

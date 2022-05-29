@@ -1,0 +1,11 @@
+body {
+  font-family: "helvetica", sans-serif;
+}
+
+.d-none {
+  display: none;
+}
+
+.container {
+  text-align: center;
+}
